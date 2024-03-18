@@ -17,8 +17,8 @@ describe('Automação do Trello', () => {
     }).then((response) => {
       expect(response.status).to.eq(200)
       boardId = response.body.id
-      const responseString = JSON.stringify(response);
-      cy.log(responseString);
+      /*const responseString = JSON.stringify(response);
+      cy.log(responseString);*/
     })
   })
 

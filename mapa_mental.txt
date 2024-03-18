@@ -1,0 +1,35 @@
++-- Estratégia de Testes de Automação do Trello com Cypress --+
+|
++-- Testes de Cadastro --+
+|   +-- Cadastrar um Board --+
+|   |   +-- Verificar se é possível criar um novo board --+
+|   |   +-- Verificar se o board criado é exibido corretamente na lista de boards --+
+|   |   +-- Verificar se o nome do board é exibido corretamente --+
+|   |   
+|   +-- Cadastrar uma Lista --+
+|   |   +-- Verificar se é possível criar uma nova lista em um board existente --+
+|   |   +-- Verificar se a lista criada é exibida corretamente na lista de listas do board --+
+|   |   +-- Verificar se o nome da lista é exibido corretamente --+
+|   |   
+|   +-- Cadastrar um Card --+
+|       +-- Verificar se é possível criar um novo card em uma lista existente --+
+|       +-- Verificar se o card criado é exibido corretamente na lista de cards da lista --+
+|       +-- Verificar se o título do card é exibido corretamente --+
+|
++-- Testes de Exclusão --+
+|   +-- Excluir um Card --+
+|   |   +-- Verificar se é possível excluir um card de uma lista --+
+|   |   +-- Verificar se o card excluído não está mais visível na lista de cards da lista --+
+|   |   
+|   +-- Excluir um Board --+
+|       +-- Verificar se é possível excluir um board --+
+|       +-- Verificar se o board excluído não está mais visível na lista de boards --+
+|
++-- Configurações do Cypress --+
+|   +-- Configurar o ambiente de testes para a API do Trello --+
+|   +-- Definir variáveis de ambiente para credenciais de acesso à API --+
+|   +-- Configurar a URL base da API do Trello --+
+|
++-- Relatórios e Logs --+
+    +-- Gerar relatórios de testes automatizados --+
+    +-- Registrar logs de execução para depuração --+
